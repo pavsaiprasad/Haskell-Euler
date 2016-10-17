@@ -1,7 +1,7 @@
 module Euler03 where
 import Data.List hiding (foldl1)
 
---Incomplete. Need to work out the best way to sieve. 
+--Incomplete. Need to work out the best way to sieve primes. 
   
 multiplesOfANumber :: Int -> Int -> [Int]
 multiplesOfANumber inputNumber maxNumber = result
